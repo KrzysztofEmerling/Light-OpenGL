@@ -6,7 +6,9 @@ Light-OpenGL is a project that marks my first steps in graphics programming. The
 
 - [Project Description](#project-description)
 - [Requirements](#requirements)
+- [Setup](#setup)
 - [Arguments](#arguments)
+
 
 ## Project Description
 
@@ -23,8 +25,24 @@ To run the project, you need:
 
 - C++20 or later
 - OpenGL libraries
-- GLFW (for window and input management)
-- GLEW (for managing OpenGL extensions)
+- GLFW (setup for your OS)
+- GLEW (setup for your OS)
+
+## Setup
+
+To build the project, you need **Premake** for generating project files.
+
+### Windows
+
+1. Download the `premake5.exe` file.
+2. Place it in the `tools/Premake/bin` directory.
+3. Run Setup-Windows.bat.
+
+### Linux
+
+1. Download the necessary executable files for Premake.
+2. Place them in the `Linux/` folder.
+3. Run Setup-Linux.sh.
 
 ## Arguments
 
