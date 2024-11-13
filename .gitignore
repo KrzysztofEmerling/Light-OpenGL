@@ -2,12 +2,16 @@
 .vscode/
 
 Build/*
-Premake/bin/*
+tools/Premake/bin/*
 !Build/
-!Premake/
+!tools/Premake/bin
 
 Makefile
+
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+
 Light-OpenGL/Makefile
 Light-OpenGL/imgui.ini
-
-tools/Premake/bin/

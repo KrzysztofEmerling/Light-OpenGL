@@ -24,7 +24,7 @@ void GLClearError();
 bool GLLogCall();
 
 #ifdef PLATFORM_WINDOWS
-#define DEBUG_BREAK DEBUG_BREAK
+#define DEBUG_BREAK __debugbreak()
 #endif
 
 #ifdef PLATFORM_LINUX
