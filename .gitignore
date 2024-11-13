@@ -1,0 +1,13 @@
+.vs/
+.vscode/
+
+Build/*
+Premake/bin/*
+!Build/
+!Premake/
+
+Makefile
+Light-OpenGL/Makefile
+Light-OpenGL/imgui.ini
+
+tools/Premake/bin/
