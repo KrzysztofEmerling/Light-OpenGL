@@ -8,7 +8,7 @@
 #include "Tests/Primitives.h"
 #include "Tests/Texture2D.h"
 #include "Tests/ParentTransform.h"
-// #include "Tests/SimpleBaching.h"
+ #include "Tests/SimpleBaching.h"
 
 #include "Tests/ShadersShowdown.h"
 
@@ -74,7 +74,7 @@ int main(int argc, char* argv[])
     testMenu->RegisterTest<Tests::Primitives>("Primitives");
     testMenu->RegisterTest<Tests::Texture2D>("Texture2D");
     testMenu->RegisterTest<Tests::ParentTransform>("ParentTransform");
-    //testMenu->RegisterTest<Tests::SimpleBaching>("SimpleBaching"); Test is not working
+    testMenu->RegisterTest<Tests::SimpleBaching>("SimpleBaching"); 
     testMenu->RegisterTest<Tests::ShadersShowdown>("ShadersShowdown");
 
     /* Parce terminal arguments */

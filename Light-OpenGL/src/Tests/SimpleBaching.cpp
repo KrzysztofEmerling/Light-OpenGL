@@ -5,25 +5,25 @@ namespace Tests
         : m_Transform(glm::vec2(0.0f, 0.0f))
     {
 
-        m_Vertices[0] = { glm::vec3(36.13f,  36.13f, 0.0f),  glm::vec2(1.0f, 1.0f), glm::vec4(1.0f, 1.0f, 0.0f, 1.0f), 0 };
-        m_Vertices[1] = { glm::vec3(-36.13f,  36.13f, 0.0f),  glm::vec2(0.0f, 1.0f), glm::vec4(1.0f, 1.0f, 0.0f, 1.0f), 0 };
-        m_Vertices[2] = { glm::vec3(-36.13f, -36.13f, 0.0f),  glm::vec2(0.0f, 0.0f), glm::vec4(1.0f, 1.0f, 0.0f, 1.0f), 0 };
-        m_Vertices[3] = { glm::vec3(36.13f, -36.13f, 0.0f), glm::vec2(1.0f, 0.0f), glm::vec4(1.0f, 1.0f, 0.0f, 1.0f), 0 };
+        m_Vertices[0] = { glm::vec3(36.13f,  36.13f, 0.0f),  glm::vec2(1.0f, 1.0f), glm::vec4(1.0f, 1.0f, 0.0f, 1.0f), 0.0f };
+        m_Vertices[1] = { glm::vec3(-36.13f,  36.13f, 0.0f),  glm::vec2(0.0f, 1.0f), glm::vec4(1.0f, 1.0f, 0.0f, 1.0f), 0.0f };
+        m_Vertices[2] = { glm::vec3(-36.13f, -36.13f, 0.0f),  glm::vec2(0.0f, 0.0f), glm::vec4(1.0f, 1.0f, 0.0f, 1.0f), 0.0f };
+        m_Vertices[3] = { glm::vec3(36.13f, -36.13f, 0.0f), glm::vec2(1.0f, 0.0f), glm::vec4(1.0f, 1.0f, 0.0f, 1.0f), 0.0f };
 
-        m_Vertices[4] = { glm::vec3(136.13f,  36.13f, 0.0f),  glm::vec2(1.0f, 1.0f), glm::vec4(0.0f, 1.0f, 1.0f, 1.0f), 0 };
-        m_Vertices[5] = { glm::vec3(-63.87f,  36.13f, 0.0f),  glm::vec2(0.0f, 1.0f), glm::vec4(0.0f, 1.0f, 1.0f, 1.0f), 0 };
-        m_Vertices[6] = { glm::vec3(-63.87f, -36.13f, 0.0f), glm::vec2(0.0f, 0.0f), glm::vec4(0.0f, 1.0f, 1.0f, 1.0f), 0 };
-        m_Vertices[7] = { glm::vec3(136.13f, -36.13f, 0.0f),  glm::vec2(1.0f, 0.0f), glm::vec4(0.0f, 1.0f, 1.0f, 1.0f), 0 };
+        m_Vertices[4] = { glm::vec3(136.13f,  36.13f, 0.0f),  glm::vec2(1.0f, 1.0f), glm::vec4(0.0f, 1.0f, 1.0f, 1.0f), 0.0f };
+        m_Vertices[5] = { glm::vec3(-63.87f,  36.13f, 0.0f),  glm::vec2(0.0f, 1.0f), glm::vec4(0.0f, 1.0f, 1.0f, 1.0f), 0.0f };
+        m_Vertices[6] = { glm::vec3(-63.87f, -36.13f, 0.0f), glm::vec2(0.0f, 0.0f), glm::vec4(0.0f, 1.0f, 1.0f, 1.0f), 0.0f };
+        m_Vertices[7] = { glm::vec3(136.13f, -36.13f, 0.0f),  glm::vec2(1.0f, 0.0f), glm::vec4(0.0f, 1.0f, 1.0f, 1.0f), 0.0f };
 
-        m_Vertices[8] = { glm::vec3(36.13f,  136.13f, 0.0f),  glm::vec2(1.0f, 1.0f), glm::vec4(1.0f, 1.0f, 1.0f, 1.0f), 1 };
-        m_Vertices[9] = { glm::vec3(-36.13f,  136.13f, 0.0f), glm::vec2(0.0f, 1.0f), glm::vec4(1.0f, 1.0f, 1.0f, 1.0f), 1 };
-        m_Vertices[10] = { glm::vec3(-36.13f, -63.87f, 0.0f),  glm::vec2(0.0f, 0.0f), glm::vec4(1.0f, 1.0f, 1.0f, 1.0f), 1 };
-        m_Vertices[11] = { glm::vec3(36.13f, -63.87f, 0.0f),  glm::vec2(1.0f, 0.0f), glm::vec4(1.0f, 1.0f, 1.0f, 1.0f), 1 };
+        m_Vertices[8] = { glm::vec3(36.13f,  136.13f, 0.0f),  glm::vec2(1.0f, 1.0f), glm::vec4(1.0f, 1.0f, 1.0f, 1.0f), 1.0f };
+        m_Vertices[9] = { glm::vec3(-36.13f,  136.13f, 0.0f), glm::vec2(0.0f, 1.0f), glm::vec4(1.0f, 1.0f, 1.0f, 1.0f), 1.0f };
+        m_Vertices[10] = { glm::vec3(-36.13f, -63.87f, 0.0f),  glm::vec2(0.0f, 0.0f), glm::vec4(1.0f, 1.0f, 1.0f, 1.0f), 1.0f };
+        m_Vertices[11] = { glm::vec3(36.13f, -63.87f, 0.0f),  glm::vec2(1.0f, 0.0f), glm::vec4(1.0f, 1.0f, 1.0f, 1.0f), 1.0f };
 
-        m_Vertices[12] = { glm::vec3(136.13f,  136.13f, 0.0f),  glm::vec2(1.0f, 1.0f), glm::vec4(1.0f, 1.0f, 1.0f, 1.0f), 2 };
-        m_Vertices[13] = { glm::vec3(-63.87f,  136.13f, 0.0f), glm::vec2(0.0f, 1.0f), glm::vec4(1.0f, 1.0f, 1.0f, 1.0f), 2 };
-        m_Vertices[14] = { glm::vec3(-63.87f, -63.87f, 0.0f),  glm::vec2(0.0f, 0.0f), glm::vec4(1.0f, 1.0f, 1.0f, 1.0f), 2 };
-        m_Vertices[15] = { glm::vec3(136.13f, -63.87f, 0.0f),  glm::vec2(1.0f, 0.0f), glm::vec4(1.0f, 1.0f, 1.0f, 1.0f), 2 };
+        m_Vertices[12] = { glm::vec3(136.13f,  136.13f, 0.0f),  glm::vec2(1.0f, 1.0f), glm::vec4(1.0f, 1.0f, 1.0f, 1.0f), 2.0f };
+        m_Vertices[13] = { glm::vec3(-63.87f,  136.13f, 0.0f), glm::vec2(0.0f, 1.0f), glm::vec4(1.0f, 1.0f, 1.0f, 1.0f), 2.0f };
+        m_Vertices[14] = { glm::vec3(-63.87f, -63.87f, 0.0f),  glm::vec2(0.0f, 0.0f), glm::vec4(1.0f, 1.0f, 1.0f, 1.0f), 2.0f };
+        m_Vertices[15] = { glm::vec3(136.13f, -63.87f, 0.0f),  glm::vec2(1.0f, 0.0f), glm::vec4(1.0f, 1.0f, 1.0f, 1.0f), 2.0f };
 
         m_Indices[0] = 0;
         m_Indices[1] = 1;
@@ -56,7 +56,7 @@ namespace Tests
 
         layout.Push<float>(2);  // TexCoords
         layout.Push<float>(4);  // Kolor
-        layout.Push<int>(1);    // TexID
+        layout.Push<float>(1);  // TexID
 
         m_VertexArray = std::make_unique<Graphics::dVertexArray>(layout);
         m_VertexBuffer = std::make_unique<Graphics::dVertexBuffer>(sizeof(Graphics::Vertex) * 1024);
@@ -98,13 +98,14 @@ namespace Tests
             ImGui::Text("Color");
             ImGui::ColorEdit4(("##Color" + uniqID).c_str(), &m_Vertices[i].Color[0]);
 
+            /*
             ImGui::Text("Texture ID");
-            ImGui::RadioButton(("TexID:0##" + uniqID).c_str(), &m_Vertices[i].TexID, 0);
+            ImGui::RadioButton(("TexID:0##" + uniqID).c_str(), &m_Vertices[i].TexID, 0.0f);
             ImGui::SameLine();
-            ImGui::RadioButton(("TexID:1##" + uniqID).c_str(), &m_Vertices[i].TexID, 1);
+            ImGui::RadioButton(("TexID:1##" + uniqID).c_str(), &m_Vertices[i].TexID, 1.0f);
             ImGui::SameLine();
-            ImGui::RadioButton(("TexID:2##" + uniqID).c_str(), &m_Vertices[i].TexID, 2);
-
+            ImGui::RadioButton(("TexID:2##" + uniqID).c_str(), &m_Vertices[i].TexID, 2.0f);
+            */
             ImGui::Separator();
             ImGui::Text("Application average %.3f ms/frame (%.1f FPS)", 1000.0f / ImGui::GetIO().Framerate, ImGui::GetIO().Framerate);
 

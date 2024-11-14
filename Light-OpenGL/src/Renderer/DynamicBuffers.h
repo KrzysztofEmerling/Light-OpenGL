@@ -12,7 +12,7 @@ namespace Graphics
 
         glm::vec2 TexCoords;
         glm::vec4 Color;
-        int       TexID;
+        float     TexID;
 
     };
 
